@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/*
- * main - main code block.
+/* main - main code block.
  * Description - perform sum.
  *
  */
