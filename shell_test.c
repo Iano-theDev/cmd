@@ -1,22 +1,17 @@
 #include <stdio.h>
-#include "main.h"
-/* main - print _putchar
- * Description: add a new line after printing.
- * Return: 0 on success
+
+/*
+ * main - main code block.
+ * Description - perform sum.
  */
 
 int main(void)
 {
-	char p[8] = "putchar";
-    	int i;
+	int a, b, sum;
+	a = 5;
+	b = 5;
 
-     	i=0;
-
-    	while (i<=8)
-    	{
-	       	putchar(p[i]);
-		i++;
-	}
-	putchar('\n');
+	sum = a + b;
+	printf("a + b = %d", &sum);
 	return (0);
 }
