@@ -3,6 +3,7 @@
 /*
  * main - main code block.
  * Description - perform sum.
+ *
  */
 
 int main(void)
